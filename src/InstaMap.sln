@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8DE41111-B86B-4785-9641-37925E5BED60}") = "InstaMap", "InstaMap\InstaMap.csproj", "{400AAB4E-931B-4E14-AA28-A8F53F80A64F}"
+EndProject
+Project("{8DE41111-B86B-4785-9641-37925E5BED60}") = "InstaMap.Tests", "InstaMap.Tests\InstaMap.Tests.csproj", "{C60BD750-83D2-44BD-9F2F-6FB2CAF4D85B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{400AAB4E-931B-4E14-AA28-A8F53F80A64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400AAB4E-931B-4E14-AA28-A8F53F80A64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400AAB4E-931B-4E14-AA28-A8F53F80A64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400AAB4E-931B-4E14-AA28-A8F53F80A64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60BD750-83D2-44BD-9F2F-6FB2CAF4D85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60BD750-83D2-44BD-9F2F-6FB2CAF4D85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60BD750-83D2-44BD-9F2F-6FB2CAF4D85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60BD750-83D2-44BD-9F2F-6FB2CAF4D85B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
