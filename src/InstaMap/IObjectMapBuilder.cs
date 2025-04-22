@@ -7,7 +7,9 @@ namespace InstaMap;
 /// </summary>
 /// <typeparam name="TSource"></typeparam>
 /// <typeparam name="TDestination"></typeparam>
-public interface IObjectMapBuilder<TSource, TDestination> where TDestination : class, new()
+public interface IObjectMapBuilder<TSource, TDestination>
+    where TSource : class
+    where TDestination : class, new()
 {
     /// <summary>
     /// Adds a callback that will be invoked after the mapping is complete.

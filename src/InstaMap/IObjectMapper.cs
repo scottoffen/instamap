@@ -1,11 +1,16 @@
 namespace InstaMap;
 
+public interface IObjectMapper
+{
+    // This interface is used to mark interfaces as mappers.
+}
+
 /// <summary>
 /// Provides a mapping function for the source and destination types.
 /// </summary>
 /// <typeparam name="TSource"></typeparam>
 /// <typeparam name="TDestination"></typeparam>
-public interface IObjectMapper<TSource, TDestination> where TDestination : class, new()
+public interface IObjectMapper<TSource, TDestination> : IObjectMapper where TDestination : class, new()
 {
     /// <summary>
     /// Maps the source object to the destination object.
